@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'poppins',sans-serif;
+    mix-blend-mode: difference;
+    scroll-behavior: smooth;
+    
+}
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 150%;
+    background-color: #042331;
+}
+ .sidebar header{
+        font-size: 30px;
+        color: white;
+        text-align: center;   
+        line-height: 70px;
+        background: #063146;
+        user-select: none;
+    }
+    .sidebar ul a{
+    display: block;
+    height: 100px;
+    width: 100px;
+    line-height: 45px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top:1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+ul li:hover a{
+    padding-left: 50px ;
+}
+section{
+    background:url(../img/background.jpg) no-repeat ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.hero{
+    background-image: url('../img/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.hero .content{
+    max-width: 60rem;
+    scroll-behavior: smooth;
+}
+.hero .content h1{
+    font-size: 30px;
+   color: white;
+   line-height: 1.2;
+   mix-blend-mode: difference;
+}
+.hero .content p{
+    font-size: 15px;
+    color: white;
+    line-height: 1.4rem;
+    mix-blend-mode: difference;
+}
+.data .date h3{
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    background-color: #042331;
+    font-display: auto;
+    color: wheat;
+    
+}
+.data{
+    background-image: url('../img/data.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
+.data .date p{
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: wheat; 
+    line-height: 1.1;
+    max-width: 70rem;
+    font-size: 30px;
+    font-variant: initial;
+    
+    
+}
+.email{
+    background-image: url('../img/email.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
+.email p{
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #063146; 
+    line-height: 1.1;
+    max-width: 50rem;
+    font-size: 20px;
+    font-variant: initial;
+    font-style: italic;
+    
+}
+.instagram{
+    background-image: url('../img/instagram.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
